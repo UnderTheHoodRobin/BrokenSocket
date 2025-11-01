@@ -1,0 +1,21 @@
+[project]
+name = "brokensocket"
+version = "0.1.0"
+authors = [
+  { name="RobinHood"},
+]
+description = "Chat and file transfer over sockets"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/UnderTheHoodRobin/BrokenSocket"
+Issues = "https://github.com/UnderTheHoodRobin/BrokenSocket/issues"
+
+[project.scripts]
+brokensocket = "brokensocket.main:main"
